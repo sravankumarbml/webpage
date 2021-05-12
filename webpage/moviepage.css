@@ -1,0 +1,243 @@
+
+/*hamburger button */
+#btn-hamburger {
+  width: 25px;
+  height: 18px;
+  position: absolute;
+  margin-left: 97%;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#hamburgerline-1 {
+  width: 25px;
+  height: 4px;
+  position: relative;
+  background-color: whitesmoke;
+  transition: all 0.5s ease-in;
+}
+
+#hamburgerline-2 {
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin-top: 5px;
+  background-color: whitesmoke;
+  transition: all 0.5s;
+}
+
+#hamburgerline-3 {
+  width: 25px;
+  height: 4px;
+  position: relative;
+  margin-top: 5px;
+  background-color: whitesmoke;
+  /*mix-blend-mode: difference;*/
+  transition: all 0.5s ease-in;
+}
+
+#menu {
+  font-size: larger;
+  position: absolute;
+  right: 45px;
+  display: none;
+  font-family: 'Montserrat"
+}
+
+
+
+:root {
+  --bgtop: #62151D;
+  --bgtext: #FFFCF3;
+  --buttonborder: #FFFCF3;
+  --buttoninside: #fec89a;
+  --buttoninside3: #ffdaba;
+  --buttoninside2: #e9bc69;
+  --gray: #d9dcd6;
+  --blueblack: #152833;
+}
+
+.btn-transparent, .btn-dropdown-transparent, .btn-transparent:link, .btn-dropdown-transparent:link, .btn-transparent:active, .btn-dropdown-transparent:active, .btn-transparent:visited, .btn-dropdown-transparent:visited {
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  line-height: 28px;
+  font-size: 13px;
+  padding: 10px 16px;
+  background-position: 16px 18px !important;
+}
+
+.btn-transparent, .btn-dropdown-transparent, .btn-transparent:link, .btn-dropdown-transparent:link, .btn-transparent:active, .btn-dropdown-transparent:active, .btn-transparent:visited, .btn-dropdown-transparent:visited {
+  border: none;
+  border-radius: 0px;
+  text-transform: uppercase;
+  line-height: 28px;
+  font-size: 13px;
+  padding: 10px 16px;
+  background-position: 16px 18px !important;
+}
+
+
+
+html {}
+
+body {
+  background-color: var(--bgtop);
+  margin-top: -6px;
+  margin-left: -3px;
+  margin-right: -3px;
+  margin-bottom: -3px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.logo {
+  position: relative;
+  transform: translateY(1em);
+  margin-left: 20px;
+  width: 10em;
+  height: auto;
+  z-index: 2;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+{
+  style="color: whitesmoke;
+}
+ 
+ * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  float: right;
+   margin-left: 50px;
+   max-width: 600px;
+  padding: 20px
+
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.description-container
+{
+   min: width 800px;
+   margin: 20px 50px 10px 30px; 
+}
+
+.description-container
+{
+text-align: justify;
+}
+.description-container .floating-image
+{
+   max-width: 600px;
+}
+.description-container .floating-image.right
+{
+   float: right;
+   margin-left: 50px;
+}
+
+#moreText {
+    display: none;
+}
+
+.twobuttons {
+  font-family: "Lucida Console", "Courier New";
+  border: double white;
+  background-color:#461016;
+  padding: 14px 28px;
+  color: #FFFCF3;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+.moviename {
+  text-align: center;
+  justify-content: center;
+  font-size: 64px;
+  font-family: 'hatton';
+  color: #152833;
+  color: #fffcf3;
+  margin-top: 5%;
+}
+
+.footer {
+  margin-top: 250px;
+  background-color: #152833;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footeraddress {
+  font-family: 'gtamerica-ex-light';
+  font-size: 32px;
+  color: #FFFCF3;
+  margin-left: -75%;
+  margin-top: 80px;
+}
+
+.footerstuff {
+  font-family: 'gtamerica-ex-light', "Montserrat";
+  font-size: 22px;
+  color: #FFFCF3;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.footerlogo {
+  margin-top: 120px;
+  height: 25%;
+  transform: translateX(-400px);
+}
+
